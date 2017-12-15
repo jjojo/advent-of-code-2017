@@ -27,25 +27,3 @@
 (as-> (sequense "/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense") $
       (filter-equals $ (/ (count $) 2))
       (reduce + $))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(defn sequ []
-  (sequense "/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense"))
