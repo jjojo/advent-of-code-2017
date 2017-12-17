@@ -15,18 +15,38 @@
       <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day1/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="558">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day2.cljc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day1/day2.cljc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spreadsheet" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day1/spreadsheet">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="111" lean-forward="false" selection-start-line="15" selection-start-column="111" selection-end-line="15" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -36,13 +56,21 @@
         <entry file="file://$PROJECT_DIR$/src/day1/sequense">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2027" lean-forward="true" selection-start-line="0" selection-start-column="2027" selection-end-line="0" selection-end-column="2027" />
+              <caret line="0" column="2027" lean-forward="false" selection-start-line="0" selection-start-column="2027" selection-end-line="0" selection-end-column="2027" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="CLJC Namespace" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -54,6 +82,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/day1/sequense" />
         <option value="$PROJECT_DIR$/src/day1/core.clj" />
+        <option value="$PROJECT_DIR$/src/day1/spreadsheet" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/day1/day2.cljc" />
       </list>
     </option>
   </component>
@@ -78,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -103,12 +132,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Clojure.IDE" />
+    <property name="cursive.last.file.extension./home/jonas/development/advent-of-code-2017/day1/src" value="cljc" />
   </component>
-  <component name="ReplState" timestamp="1513350596175">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1513520380043">{:repl-history {:ide [], :local [{:command &quot;(defn sequense\n  (sequense \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense\&quot;))&quot;, :offset 97, :ns &quot;day1.core&quot;} {:command &quot;(defn sequ\n  (sequense \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense\&quot;))&quot;, :offset 93, :ns &quot;day1.core&quot;} {:command &quot;(defn sequ []\n  (sequense \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense\&quot;))&quot;, :offset 96, :ns &quot;day1.core&quot;} {:command &quot;(filter-equals (sequ) 5 )&quot;, :offset 25, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (-&gt;&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq)\n     (reduce (fn [num list]\n               (if (= num (first list)))\n               )(first seq))\n     ))&quot;, :offset 248, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (-&gt;&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq)\n     (reduce (fn [num list]\n               (if (= num (first list))\n                 num\n                 )\n               )(first seq))\n     ))&quot;, :offset 287, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n     (reduce (fn [num list]\n               (if (= num (first list))\n                 num\n                 )\n               )(first seq) $)\n     ))&quot;, :offset 292, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n     ))&quot;, :offset 153, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num coll) \n                 )1 $)\n     ))&quot;, :offset 243, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num coll) \n                 )[] $)\n     ))&quot;, :offset 244, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num coll)\n                 (if (= num coll)\n                   (concat num coll))\n                 )_ $)\n     ))&quot;, :offset 314, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num coll)\n                 (if (= num coll)\n                   (concat num coll))\n                 )0 $)\n     ))&quot;, :offset 314, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 ;(println num coll)\n                 (if (= num coll)\n                   (concat num coll))\n                 )0 $)\n     ))&quot;, :offset 315, :ns &quot;day1.core&quot;} {:command &quot;(as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 ;(println num coll)\n                 (if (= num coll)\n                   (concat num (vector [coll]))\n                 )0 $)\n     ))&quot;, :offset 290, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 ;(println num coll)\n                 (if (= num coll)\n                   (concat num (vector [coll])))\n                 )0 $)\n     ))&quot;, :offset 326, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num coll)\n                 (if (= num coll)\n                   (concat num (vector [coll])))\n                 )0 $)\n     ))&quot;, :offset 325, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num coll)\n                 (if (= num coll)\n                   (concat num (vector [coll])))\n                 )[] $)\n     ))&quot;, :offset 326, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num (vector [coll]))\n                 (if (= num coll)\n                   (concat num (vector [coll])))\n                 )[] $)\n     ))&quot;, :offset 337, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num (vector coll))\n                 (if (= num coll)\n                   (concat num (vector coll)))\n                 )[] $)\n     ))&quot;, :offset 333, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (reduce (fn [num coll]\n                 (println num (vector coll) $)\n                 (if (= num coll)\n                   (concat num (vector coll)))\n                 )[] $)\n     ))&quot;, :offset 335, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (as-&gt;(keep-indexed (fn [num item]\n                  (if (= (mod num step) 0)\n                    item)) seq) $\n       (for [i (range 1 (count $))]\n         (if (= (nth $ i) (nth $ (- i 1)))\n           (nth $ i)\n           0\n           ))\n     ))&quot;, :offset 280, :ns &quot;day1.core&quot;} {:command &quot;(filter-equals (sequ) 100 )&quot;, :offset 27, :ns &quot;day1.core&quot;} {:command &quot;(filter-equals (sequ) 1 )&quot;, :offset 25, :ns &quot;day1.core&quot;} {:command &quot;(reduce + (filter-equals (sequ) 1 ))&quot;, :offset 36, :ns &quot;day1.core&quot;} {:command &quot;(concat (sequ) (sequ))&quot;, :offset 22, :ns &quot;day1.core&quot;} {:command &quot;(count(concat (sequ) (sequ)))&quot;, :offset 29, :ns &quot;day1.core&quot;} {:command &quot;(count (sequ))&quot;, :offset 14, :ns &quot;day1.core&quot;} {:command &quot;(filter-equals (concat (sequ) (sequ)) (/ (count (sequ)) 2 ))&quot;, :offset 60, :ns &quot;day1.core&quot;} {:command &quot;(reduce + (filter-equals (concat (sequ) (sequ)) (/ (count (sequ)) 2 )))&quot;, :offset 71, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (let [length (count seq)\n        first-iterator (fn[index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    t (map-indexed (fn [index item]\n                   (if (= (first-iterator index) (second-iterator index))\n                     item\n                     0)))))&quot;, :offset 400, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (let [length (count seq)\n        first-iterator (fn[index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= (first-iterator index) (second-iterator index))\n                     item\n                     0)))))&quot;, :offset 398, :ns &quot;day1.core&quot;} {:command &quot;(filter-equals (sequ) 1)&quot;, :offset 24, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (let [length (count seq)\n        first-iterator (fn[index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= (first-iterator index) (second-iterator index))\n                     item\n                     0)) seq)))&quot;, :offset 402, :ns &quot;day1.core&quot;} {:command &quot;(/ (count (sequ)) 2 )&quot;, :offset 21, :ns &quot;day1.core&quot;} {:command &quot;(filter-equals (sequ) (/ (count (sequ)) 2 ))&quot;, :offset 44, :ns &quot;day1.core&quot;} {:command &quot;1&quot;, :offset 1, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (let [length (count seq)\n        first-iterator (fn[index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= item (seq (first-iterator index)))\n                     item\n                     0)) seq)))&quot;, :offset 389, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seq step]\n  (let [length (count seq)\n        first-iterator (fn[index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= item ( seq (first-iterator index)))\n                     item\n                     0)) seq)))&quot;, :offset 390, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seqs step]\n  (let [length (count seqs)\n        first-iterator (fn[index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= item (seqs (first-iterator index)))\n                     item\n                     0)) seqs)))&quot;, :offset 393, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seqs step]\n  (let [length (count seqs)\n        first-iterator (fn[index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (println index)\n                   (println item)))))&quot;, :offset 345, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seqs step]\n  (let [length (count seqs)\n        first-iterator (fn[index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (println index)\n                   (println item)) seqs)))&quot;, :offset 350, :ns &quot;day1.core&quot;} {:command &quot;(reduce + (filter-equals (sequ) (/ (count (sequ)) 2 )))&quot;, :offset 55, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seqs step]\n  (let [length (count seqs)\n        first-iterator (fn [index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (println (first-iterator index))\n                   (println (second-iterator index))) seqs)))&quot;, :offset 387, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seqs step]\n  (let [length (count seqs)\n        first-iterator (fn [index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= item (nth (second-iterator index) seqs))\n                     (println item)\n                   ) seqs))))&quot;, :offset 406, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seqs step]\n  (let [length (count seqs)\n        first-iterator (fn [index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= item (nth (second-iterator index) seqs))\n                     (println item)\n                   )) seqs)))&quot;, :offset 406, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seqs step]\n  (let [length (count seqs)\n        first-iterator (fn [index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= item (nth seqs (second-iterator index)))\n                     (println item)\n                   )) seqs)))&quot;, :offset 406, :ns &quot;day1.core&quot;} {:command &quot;(filter-equals (sequ) 2)&quot;, :offset 24, :ns &quot;day1.core&quot;} {:command &quot;(defn filter-equals\n  [seqs step]\n  (let [length (count seqs)\n        first-iterator (fn [index]\n                         (mod (inc index) length))\n        second-iterator (fn [index]\n                          (mod (+ index step) length))]\n    (map-indexed (fn [index item]\n                   (if (= item (nth seqs (second-iterator index)))\n                     item\n                     0)) seqs)))&quot;, :offset 399, :ns &quot;day1.core&quot;} {:command &quot;(reduce + (filter-equals (sequ) 2))&quot;, :offset 35, :ns &quot;day1.core&quot;} {:command &quot;(reduce + (filter-equals (sequ) 1))&quot;, :offset 35, :ns &quot;day1.core&quot;} {:command &quot;(reduce + (filter-equals (sequ) (/ (count sequ) 2)))&quot;, :offset 52, :ns &quot;day1.core&quot;} {:command &quot;(/ (count sequ) 2)&quot;, :offset 18, :ns &quot;day1.core&quot;} {:command &quot;(/ (count (sequ)) 2)&quot;, :offset 20, :ns &quot;day1.core&quot;} {:command &quot;(filter-equals (sequ) (/ (count (sequ)) 2))&quot;, :offset 43, :ns &quot;day1.core&quot;} {:command &quot;(reduce + (filter-equals (sequ) (/ (count (sequ)) 2)))&quot;, :offset 54, :ns &quot;day1.core&quot;} {:command &quot;(-&gt; (sequense \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense\&quot;)\n    (filter-equals 1)\n    (reduce +))&quot;, :offset 121, :ns &quot;day1.core&quot;} {:command &quot;(as-&gt; (sequense \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense\&quot;) $\n      (filter-equals $ \n                     (/ (count $) 2))\n      (reduce + $))&quot;, :offset 169, :ns &quot;day1.core&quot;} {:command &quot;(as-&gt; (sequense \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense\&quot;) $\n      (filter-equals $\n                     (/ (count $) 2))\n      (reduce + $))&quot;, :offset 168, :ns &quot;day1.core&quot;} {:command &quot;(as-&gt; (sequense \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense\&quot;) $\n      (filter-equals $ (/ (count $) 2))\n      (reduce + $))&quot;, :offset 147, :ns &quot;day1.core&quot;} {:command &quot;(as-&gt; (sequense \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/sequense\&quot;) $\n    (filter-equals $ 1)\n    (reduce + $))&quot;, :offset 129, :ns &quot;day1.core&quot;} {:command &quot;(with-open [rdr (clojure.java.io/reader \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)])&quot;, :offset 114, :ns &quot;day1.day2&quot;} {:command &quot;(with-open [rdr (reader \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)]\n  (doseq [line (line-seq rdr)]\n    (println line)))&quot;, :offset 149, :ns &quot;day1.day2&quot;} {:command &quot;(read-line [ \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;])&quot;, :offset 86, :ns &quot;day1.day2&quot;} {:command &quot;(with-open [rdr (reader \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)]\n  (doseq [line (line-seq rdr)]\n    (-&gt; (seq line)\n        (map (fn [char]\n               (Character/getNumericValue char))))\n        ))&quot;, :offset 233, :ns &quot;day1.day2&quot;} {:command &quot;(with-open [rdr (reader \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)]\n  (doseq [line (line-seq rdr)]\n    (-&gt; (seq line)\n        (map (fn [char]\n               (Character/getNumericValue char))))))&quot;, :offset 224, :ns &quot;day1.day2&quot;} {:command &quot;(line-seq rdr)&quot;, :offset 14, :ns &quot;day1.day2&quot;} {:command &quot;(seq line)&quot;, :offset 10, :ns &quot;day1.day2&quot;} {:command &quot;(with-open [rdr (reader \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)]\n  (doseq [line (line-seq rdr)]\n    (-&gt; (seq line)\n        )))&quot;, :offset 159, :ns &quot;day1.day2&quot;} {:command &quot;\&quot;\&quot;&quot;, :offset 2, :ns &quot;day1.day2&quot;} {:command &quot;(slurp \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)&quot;, :offset 79, :ns &quot;day1.day2&quot;} {:command &quot;(ns day1.day2)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(use 'clojure.java.io)&quot;, :offset 22, :ns &quot;day1.day2&quot;} {:command &quot;(split (slurp \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;))&quot;, :offset 87, :ns &quot;day1.day2&quot;} {:command &quot;(split (slurp \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;) \&quot;\\t\&quot;)&quot;, :offset 92, :ns &quot;day1.day2&quot;} {:command &quot;(require '[clojure.string :as str])&quot;, :offset 35, :ns &quot;day1.day2&quot;} {:command &quot;(str/split (slurp \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;) \&quot;\\t\&quot;)&quot;, :offset 96, :ns &quot;day1.day2&quot;} {:command &quot;(str/split (slurp \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;) #\&quot;\\t\&quot;)&quot;, :offset 97, :ns &quot;day1.day2&quot;} {:command &quot;(str/split (slurp \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;) #\&quot;\\n\&quot;)&quot;, :offset 97, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (str/split row #\&quot;\\t\&quot;)))\n       (into [])\n      ))&quot;, :offset 177, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (-&gt; (str/split row #\&quot;\\t\&quot;)\n                 (read-string))))\n       (into [])\n      ))&quot;, :offset 213, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (-&gt; (read-string (str/split row #\&quot;\\t\&quot;))\n                 )))\n       (into [])\n      ))&quot;, :offset 214, :ns &quot;day1.day2&quot;} {:command &quot;\&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;&quot;, :offset 71, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (-&gt; (str/split row #\&quot;\\t\&quot;)\n                 (println))))\n       (into [])\n      ))&quot;, :offset 209, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (as-&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;) $\n      (map (fn[row]\n             (str/split row #\&quot;\\t\&quot;)) $)\n       (map (read-string $) $)\n       (into $ [])))&quot;, :offset 208, :ns &quot;day1.day2&quot;} {:command &quot;(map (fn[row]\n             (str/split row #\&quot;\\t\&quot;)))&quot;, :offset 50, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (str/split row #\&quot;\\t\&quot;)))\n       (into [])))&quot;, :offset 170, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (str/split row #\&quot;\\t\&quot;)\n             (println )))\n       (into [])))&quot;, :offset 194, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (-&gt;(str/split row #\&quot;\\t\&quot;)\n                (read-string))))\n       (into [])))&quot;, :offset 204, :ns &quot;day1.day2&quot;} {:command &quot;e&quot;, :offset 1, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (as-&gt;(str/split row #\&quot;\\t\&quot;) $\n                (map (Integer/parseInt $)))))\n       (into [])))&quot;, :offset 221, :ns &quot;day1.day2&quot;} {:command &quot;(defn read-spreadsheat [path-to-txt-input]\n\n  (-&gt;&gt; (str/split (slurp path-to-txt-input) #\&quot;\\n\&quot;)\n      (map (fn[row]\n             (as-&gt;(str/split row #\&quot;\\t\&quot;) $\n                (map (fn[number]\n                       (Integer/parseInt number)) $))))\n       (into [])))&quot;, :offset 264, :ns &quot;day1.day2&quot;} {:command &quot;(defn calculate-checksum [input-matrix]\n  (map (fn [row]\n         (- (max (read-string row)) (min (read-string row))))))&quot;, :offset 120, :ns &quot;day1.day2&quot;} {:command &quot;(defn calculate-checksum [input-matrix]\n  (map (fn [row]\n         (- (max row) (min row))) input-matrix))&quot;, :offset 105, :ns &quot;day1.day2&quot;} {:command &quot;(read-spreadsheat \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)&quot;, :offset 90, :ns &quot;day1.day2&quot;} {:command &quot;(defn calculate-checksum [input-matrix]\n  (map (fn [row]\n         (- (apply max row) (apply min row))) input-matrix))&quot;, :offset 117, :ns &quot;day1.day2&quot;} {:command &quot;(-&gt; (read-spreadsheat \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)\n    (calculate-checksum ))&quot;, :offset 121, :ns &quot;day1.day2&quot;} {:command &quot;(-&gt; (read-spreadsheat \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)\n    (calculate-checksum )\n    (reduce +))&quot;, :offset 136, :ns &quot;day1.day2&quot;} {:command &quot;(-&gt;&gt; (read-spreadsheat \&quot;/home/jonas/development/advent-of-code-2017/day1/src/day1/spreadsheet\&quot;)\n    (calculate-checksum )\n    (reduce +))&quot;, :offset 137, :ns &quot;day1.day2&quot;} {:command &quot;(use 'clojure.contrib.combinatorics)&quot;, :offset 36, :ns &quot;day1.day2&quot;} {:command &quot;(use clojure.contrib.combinatorics)&quot;, :offset 35, :ns &quot;day1.day2&quot;} {:command &quot;(:require [clojure.math.combinatorics :as combo])&quot;, :offset 49, :ns &quot;day1.day2&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -233,16 +265,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="30" width="1920" height="991" extended-state="6" />
+    <frame x="1515" y="30" width="1920" height="991" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="1" y="0" width="1272" height="879" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -280,8 +312,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day1/core.clj">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/spreadsheet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="111" lean-forward="false" selection-start-line="15" selection-start-column="111" selection-end-line="15" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/sequense">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2027" lean-forward="false" selection-start-line="0" selection-start-column="2027" selection-end-line="0" selection-end-column="2027" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/day2.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/spreadsheet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="111" lean-forward="false" selection-start-line="15" selection-start-column="111" selection-end-line="15" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/sequense">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2027" lean-forward="false" selection-start-line="0" selection-start-column="2027" selection-end-line="0" selection-end-column="2027" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/day2.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="88" lean-forward="false" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/spreadsheet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="111" lean-forward="false" selection-start-line="15" selection-start-column="111" selection-end-line="15" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/sequense">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2027" lean-forward="false" selection-start-line="0" selection-start-column="2027" selection-end-line="0" selection-end-column="2027" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/day2.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -304,8 +440,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day1/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="558">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/sequense">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2027" lean-forward="false" selection-start-line="0" selection-start-column="2027" selection-end-line="0" selection-end-column="2027" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/spreadsheet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="111" lean-forward="false" selection-start-line="15" selection-start-column="111" selection-end-line="15" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/day2.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
